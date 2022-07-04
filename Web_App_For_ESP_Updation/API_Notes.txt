@@ -1,0 +1,6 @@
+arduino-cli compile --fqbn arduino:avr:uno ./Blink/blink.ino  -e
+import subprocess
+result = subprocess.run(['ls', '-l'], stdout=subprocess.PIPE)
+
+#arduino-cli config path
+    C:\Users\91720\AppData\Local\Arduino15\
